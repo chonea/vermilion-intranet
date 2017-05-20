@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Vermilion Energy</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+
+	<!-- Fancybox -->
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="scripts/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="scripts/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Vermilion customizations -->
+		<link rel="stylesheet" href="styles/style.css" media="screen" type="text/css">
+		<script type="text/JavaScript" src="scripts/vermilion.js"></script>
+
+</head>
+<body class="secondary-page">
+	<div id="page-wrapper">
+
+		<div id="header-wrapper">
+			<div id="header-container">
+				<div id="header-logo"><a href="/"></a></div>
+				<div id="header-title">
+					<h2>Intranet Title</h2>
+					<h3>Title to be determined</h3>
+				</div>
+				<div id="main-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="main-menu"><li><a href="index.html" class="active">Home</a></li><li><a href="secondary-with-2020-vision.html">2020 Vision</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li></ul></li><li><a href="secondary.html">News & Events</a></li><li><a href="secondary.html">Our Company</a></li><li><a href="secondary.html">Our Responsibility</a></li><li><a href="secondary.html">Vermilion & Me</a></li><li><a href="secondary.html">Departments</a></li><li><a href="secondary.html">Tools & Support</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li><li><a href="secondary.html">Dropdown Option 3</a></li><li><a href="secondary.html">Dropdown Option 4</a></li></ul></li></ul>
+				</div> <!-- end main-menu-container -->
+				<div id="search-form-container">
+				<form id="search-form" name="searchform" method="post" action="">
+					<label for="search-directory">Directory</label><div class="radio"><input id="search-directory" type="radio" name="searchscope" value="directory" checked="checked"></div>
+					<label for="search-intranet">Intranet</label><div class="radio"><input id="search-intranet" type="radio" name="searchscope" value="intranet"></div>
+					<label for="search-news">News</label><div class="radio"><input id="search-news" type="radio" name="searchscope" value="news"></div>
+					<label for="search-google">Google</label><div class="radio"><input id="search-google" type="radio" name="searchscope" value="google"></div><br />
+					<input type="text" name="searchkey" id="search-key" maxlength="50" value="">
+					<a id="search-submit" href="javascript: submitSearch();">Search</a>
+				</form>
+				</div>
+				<div id="user-menu-container">
+					<ul id="user-menu">
+						<lh>Welcome:</lh>
+						<li id="profile-item"><a href="">User Name</a></li>
+						<li id="team-item"><a href="">Team Sites</a></li>
+						<li id="language-item"><a href="">English</a></li>
+					</ul>
+				</div> <!-- end user-menu-container -->
+			</div> <!-- end header-container -->
+		</div> <!-- end header-wrapper -->
+
+		<div id="content-wrapper">
+			<div id="content-container">
+
+				<div id="left-sidebar" class="content-column one-quarter-page first-column">
+
+					<div id="menu-block" class="block">
+						<ul id="sub-menu" class="block-menu">
+							<li><a href="secondary.html">Leader Blog</a></li>
+							<li><a href="secondary.html">Scorecard</a></li>
+							<li><a href="secondary.html">Matters of Importance</a>
+								<ul>
+									<li><a href="secondary.html">Sub link number one</a></li>
+									<li><a href="secondary.html">Sub link number two</a></li>
+								</ul>
+							</li>
+							<li><a href="secondary.html">Forums</a></li>
+							<li><a href="secondary.html">Corporate Values & Mission</a></li>
+							<li><a href="secondary.html">Presentations</a></li>
+						</ul>
+					</div>
+
+				</div> <!-- end left-sidebar -->
+
+				<div id="content" class="content-column half-page">
+					<div class="content">
+						<h2>Page Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<ul>
+							<lh>This is an example of a list header.</lh>
+							<li>Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero.</li>
+							<li>Quisque iaculis ligula ut ipsum mattis viverra. Nulla a libero metus.</li>
+							<li>Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio.</li>
+							<li>Mauris molestie augue sed nunc adipiscing et pharetra ligula suscipit.</li>
+							<li>In euismod lectus ac sapien fringilla ut eleifend lacus venenatis.</li>
+						</ul>
+					</div> <!-- end content -->
+
+					<style type="text/css">
+						.topic-list {
+							margin: 40px 0;
+						}
+						.topic-column {
+							float: left;
+							width: 255px;
+							padding: 0;
+							margin: 0 9px 0 0;
+						}
+						.topic-column.last-column {
+							margin: 0;
+							clear: right;
+						}
+						.topic-box {
+							position: relative;
+							width: 160px;
+							min-height: 74px;
+							padding-left: 95px;
+							margin-bottom: 20px;
+							background: transparent url() 0 0 no-repeat;
+						}
+						.topic-box h2,
+						.topic-box h2 a {
+							background: none;
+							padding: 0;
+							margin: 0;
+							color: #6c9ecf;
+						}
+						.topic-box p {
+							font-size: .75em;
+							margin: .25em 0 0;
+							padding: 0;
+						}
+						.topic-link {
+							position: absolute;
+							top: 0;
+							left: 0;
+						}
+						.topic-link a {
+							display: block;
+							width: 80px;
+							height: 74px;
+							text-indent: -9999px;
+						}
+						#topic-accounting { background-image: url('images/icons/accounting_off.png'); }
+						#topic-accounting:hover { background-image: url('images/icons/accounting_on.png'); }
+						
+						#topic-appsupport { background-image: url('images/icons/appsupport_off.png'); }
+						#topic-appsupport:hover { background-image: url('images/icons/appsupport_on.png'); }
+						
+						#topic-benefits { background-image: url('images/icons/benefits_off.png'); }
+						#topic-benefits:hover { background-image: url('images/icons/benefits_on.png'); }
+						
+						#topic-communityinvestment { background-image: url('images/icons/communityinvestment_off.png'); }
+						#topic-communityinvestment:hover { background-image: url('images/icons/communityinvestment_on.png'); }
+						
+						#topic-compensation { background-image: url('images/icons/compensation_off.png'); }
+						#topic-compensation:hover { background-image: url('images/icons/compensation_on.png'); }
+						
+						#topic-corporateapps { background-image: url('images/icons/corporateapps_off.png'); }
+						#topic-corporatelibrary:hover { background-image: url('images/icons/corporatelibrary_on.png'); }
+						
+						#topic-corporatelibrary { background-image: url('images/icons/corporatelibrary_off.png'); }
+						#topic-corporateapps:hover { background-image: url('images/icons/corporateapps_on.png'); }
+						
+						#topic-enviro { background-image: url('images/icons/enviro_off.png'); }
+						#topic-enviro:hover { background-image: url('images/icons/enviro_on.png'); }
+						
+						#topic-events { background-image: url('images/icons/events_off.png'); }
+						#topic-events:hover { background-image: url('images/icons/events_on.png'); }
+						
+						#topic-finance { background-image: url('images/icons/finance_off.png'); }
+						#topic-finance:hover { background-image: url('images/icons/finance_on.png'); }
+						
+						#topic-health { background-image: url('images/icons/health_off.png'); }
+						#topic-health:hover { background-image: url('images/icons/health_on.png'); }
+						
+						#topic-healthsafetyenvir { background-image: url('images/icons/healthsafetyenvir_off.png'); }
+						#topic-healthsafetyenvir:hover { background-image: url('images/icons/healthsafetyenvir_on.png'); }
+						
+						#topic-healthwellness { background-image: url('images/icons/healthwellness_off.png'); }
+						#topic-healthwellness:hover { background-image: url('images/icons/healthwellness_on.png'); }
+						
+						#topic-helpdesk { background-image: url('images/icons/helpdesk_off.png'); }
+						#topic-helpdesk:hover { background-image: url('images/icons/helpdesk_on.png'); }
+						
+						#topic-hr { background-image: url('images/icons/hr_off.png'); }
+						#topic-hr:hover { background-image: url('images/icons/hr_on.png'); }
+						
+						#topic-investorrelations { background-image: url('images/icons/investorrelations_off.png'); }
+						#topic-investorrelations:hover { background-image: url('images/icons/investorrelations_on.png'); }
+						
+						#topic-it { background-image: url('images/icons/it_off.png'); }
+						#topic-it:hover { background-image: url('images/icons/it_on.png'); }
+						
+						#topic-jobopportunities { background-image: url('images/icons/jobopportunities_off.png'); }
+						#topic-jobopportunities:hover { background-image: url('images/icons/jobopportunities_on.png'); }
+						
+						#topic-learningdev { background-image: url('images/icons/learningdev_off.png'); }
+						#topic-learningdev:hover { background-image: url('images/icons/learningdev_on.png'); }
+						
+						#topic-newhires { background-image: url('images/icons/newhires_off.png'); }
+						#topic-newhires:hover { background-image: url('images/icons/newhires_on.png'); }
+						
+						#topic-news { background-image: url('images/icons/news_off.png'); }
+						#topic-news:hover { background-image: url('images/icons/news_on.png'); }
+						
+						#topic-onthemove { background-image: url('images/icons/onthemove_off.png'); }
+						#topic-onthemove:hover { background-image: url('images/icons/onthemove_on.png'); }
+						
+						#topic-operations { background-image: url('images/icons/operations_off.png'); }
+						#topic-operations:hover { background-image: url('images/icons/operations_on.png'); }
+						
+						#topic-performancemgmt { background-image: url('images/icons/performancemgmt_off.png'); }
+						#topic-performancemgmt:hover { background-image: url('images/icons/performancemgmt_on.png'); }
+						
+						#topic-policies { background-image: url('images/icons/policies_off.png'); }
+						#topic-policies:hover { background-image: url('images/icons/policies_on.png'); }
+						
+						#topic-safety { background-image: url('images/icons/safety_off.png'); }
+						#topic-safety:hover { background-image: url('images/icons/safety_on.png'); }
+						
+						#topic-travel { background-image: url('images/icons/travel_off.png'); }
+						#topic-travel:hover { background-image: url('images/icons/travel_on.png'); }
+						
+						#topic-treasury { background-image: url('images/icons/treasury_off.png'); }
+						#topic-treasury:hover { background-image: url('images/icons/treasury_on.png'); }
+					</style>
+					<div class="content topic-list">
+						<div class="topic-column">
+							<div id="topic-travel" class="topic-box">
+								<h2><a href="/travel">Travel</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+							</div>
+							<div id="topic-benefits" class="topic-box">
+								<h2><a href="/benefits">Benefits</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+							</div>
+						</div>
+						<div class="topic-column last-column">
+							<div id="topic-compensation" class="topic-box">
+								<h2><a href="/compensation">Compensation</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+							</div>
+							<div id="topic-policies" class="topic-box">
+								<h2><a href="/policies">Policies</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+							</div>
+						</div>
+					</div> <!-- end content -->
+					<script>
+						(function($){
+							$(document).ready(function(e) {
+								$('.topic-box').prepend('<div class="topic-link" />');
+								$('.topic-box').each(function(){
+									var thisBox = $(this);
+									$(thisBox).find('h2 a').clone().appendTo($(thisBox).find('.topic-link'));
+								});
+							});
+						})(jQuery);
+					</script>
+				</div> <!-- end content -->
+
+				<div id="right-sidebar" class="content-column one-quarter-page last-column">
+
+					<div id="vision-2020-logo" class="sidebar block">
+						<div class="banner"></div>
+					</div>
+
+					<div id="leader-blog" class="block">
+						<h2>Leader Blog</h2>
+						<div class="banner"></div>
+						<div class="post">
+							<h3><a href="">Upcoming Title</a></h3>
+							<h4>Aug 24 2014</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="read-more"><a href="">Read More</a></div>
+						</div>
+					</div>
+
+					<div id="scorecard" class="block">
+						<h2>Scorecard</h2>
+						<div class="post">
+							<h3><a href="">Upcoming Title</a></h3>
+							<h4>Aug 24 2014</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="read-more"><a href="">Read More</a></div>
+						</div>
+					</div>
+
+					<div id="block-5" class="block">
+						<div id="did-you-know">
+							<h3>Did you know?</h3>
+							<p>The 2020 Vision logo symbolizes the global reach of the company.</p>
+						</div>
+					</div>
+
+				</div> <!-- end right-sidebar -->
+
+			</div> <!-- end content-container -->
+		</div> <!-- end content-wrapper -->
+
+		<div id="footer-wrapper">
+			<div id="footer-container">
+				<div id="footer-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="secondary.html">Our Responsibility</a></li>
+						<li><a href="secondary.html">News & Events</a></li>
+						<li><a href="secondary.html">Departments</a></li>
+						<li><a href="secondary.html">Contact Us</a></li>
+						<li><a href="secondary.html">2020 Vision</a></li>
+						<li><a href="secondary.html">Vermilion & Me</a></li>
+						<li><a href="secondary.html">Our Company</a></li>
+						<li><a href="secondary.html">Tools & Support</a></li>
+						<li><a href="secondary.html">Support</a></li>
+					</ul>
+				</div> <!-- end footer-menu-container -->
+				<div id="suggestion-box-container" class="footer-column last-column one-quarter-page">
+					<a id="suggestion-box" href="mailto:suggestions@vermilionenergy.com">Suggestion Box</a>
+				</div> <!-- end suggestion-box-container -->
+			</div> <!-- footer-container -->
+		</div> <!-- footer-wrapper -->
+
+	</div> <!-- end page-wrapper -->
+	<div id="disclaimer">Copyright &copy; 2013, <a target="_blank" href="http://www.vermilionenergy.com/">Vermilion Energy</a></div>
+</body>
+</html>

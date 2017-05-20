@@ -1,0 +1,32 @@
+/*
+ * 2020 Vision CSS
+ */
+ 
+#vision-2020 { position: relative; margin: 20px auto 0; }
+#vision-2020-graphic { position: relative; width: 519px; height: 519px; }
+#vision-2020-svg { margin: 0 auto; }
+#vision-2020-svg .slice { cursor: pointer; }
+#vision-2020-content { position: relative; width: 519px; }
+#vision-2020-content div { width: 519px; text-align: center; display: none; }
+#vision-2020-content div svg { }
+
+/*
+ * English content (default)
+ */
+#vision-2020-content-people { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_02_eng.png') center top no-repeat; }
+#vision-2020-content-health-safety-environment { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_03_eng.png') center top no-repeat; }
+#vision-2020-content-shareholder-returns { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_04_eng.png') center top no-repeat; }
+#vision-2020-content-robust-portfolio { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_05_eng.png') center top no-repeat; }
+#vision-2020-content-operational-excellence { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_06_eng.png') center top no-repeat; }
+#vision-2020-content-entrepreneurial-approach { width: 519px; height: 376px; background: transparent url('../images/vision-2020/text_01_eng.png') center top no-repeat; }
+
+/*
+ * French content
+ */
+.lang-fr #vision-2020-content-people { height: 376px; background-image: url('../images/vision-2020/text_02_fr.png'); }
+.lang-fr #vision-2020-content-health-safety-environment { height: 376px; background-image: url('../images/vision-2020/text_03_fr.png'); }
+.lang-fr #vision-2020-content-shareholder-returns { height: 376px; background-image: url('../images/vision-2020/text_04_fr.png'); }
+.lang-fr #vision-2020-content-robust-portfolio { height: 376px; background-image: url('../images/vision-2020/text_05_fr.png'); }
+.lang-fr #vision-2020-content-operational-excellence { height: 376px; background-image: url('../images/vision-2020/text_06_fr.png'); }
+.lang-fr #vision-2020-content-entrepreneurial-approach { height: 376px; background-image: url('../images/vision-2020/text_01_fr.png'); }
+

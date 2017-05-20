@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Vermilion Energy</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+
+	<!-- Fancybox -->
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="scripts/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="scripts/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Vermilion customizations -->
+		<link rel="stylesheet" href="styles/style.css" media="screen" type="text/css">
+		<script type="text/JavaScript" src="scripts/vermilion.js"></script>
+
+</head>
+<body class="secondary-page">
+	<div id="page-wrapper">
+
+		<div id="header-wrapper">
+			<div id="header-container">
+				<div id="header-logo"><a href="/"></a></div>
+				<div id="header-title">
+					<h2>Intranet Title</h2>
+					<h3>Title to be determined</h3>
+				</div>
+				<div id="main-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="main-menu"><li><a href="index.html" class="active">Home</a></li><li><a href="secondary-with-2020-vision.html">2020 Vision</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li></ul></li><li><a href="secondary.html">News & Events</a></li><li><a href="secondary.html">Our Company</a></li><li><a href="secondary.html">Our Responsibility</a></li><li><a href="secondary.html">Vermilion & Me</a></li><li><a href="secondary.html">Departments</a></li><li><a href="secondary.html">Tools & Support</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li><li><a href="secondary.html">Dropdown Option 3</a></li><li><a href="secondary.html">Dropdown Option 4</a></li></ul></li></ul>
+				</div> <!-- end main-menu-container -->
+				<div id="search-form-container">
+				<form id="search-form" name="searchform" method="post" action="">
+					<label for="search-directory">Directory</label><div class="radio"><input id="search-directory" type="radio" name="searchscope" value="directory" checked="checked"></div>
+					<label for="search-intranet">Intranet</label><div class="radio"><input id="search-intranet" type="radio" name="searchscope" value="intranet"></div>
+					<label for="search-news">News</label><div class="radio"><input id="search-news" type="radio" name="searchscope" value="news"></div>
+					<label for="search-google">Google</label><div class="radio"><input id="search-google" type="radio" name="searchscope" value="google"></div><br />
+					<input type="text" name="searchkey" id="search-key" maxlength="50" value="">
+					<a id="search-submit" href="javascript: submitSearch();">Search</a>
+				</form>
+				</div>
+				<div id="user-menu-container">
+					<ul id="user-menu">
+						<lh>Welcome:</lh>
+						<li id="profile-item"><a href="">User Name</a></li>
+						<li id="team-item"><a href="">Team Sites</a></li>
+						<li id="language-item"><a href="">English</a></li>
+					</ul>
+				</div> <!-- end user-menu-container -->
+			</div> <!-- end header-container -->
+		</div> <!-- end header-wrapper -->
+
+		<div id="content-wrapper">
+			<div id="content-container">
+
+				<div id="left-sidebar" class="content-column one-quarter-page first-column">
+
+					<div id="menu-block" class="block">
+						<ul id="sub-menu" class="block-menu">
+							<li><a href="secondary.html">Leader Blog</a></li>
+							<li><a href="secondary.html">Scorecard</a></li>
+							<li><a href="secondary.html">Matters of Importance</a>
+								<ul>
+									<li><a href="secondary.html">Sub link number one</a></li>
+									<li><a href="secondary.html">Sub link number two</a></li>
+								</ul>
+							</li>
+							<li><a href="secondary.html">Forums</a></li>
+							<li><a href="secondary.html">Corporate Values & Mission</a></li>
+							<li><a href="secondary.html">Presentations</a></li>
+						</ul>
+					</div>
+
+				</div> <!-- end left-sidebar -->
+
+				<div id="content" class="content-column half-page">
+					<div class="content">
+						<h2>Page Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<ul>
+							<lh>This is an example of a list header.</lh>
+							<li>Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero.</li>
+							<li>Quisque iaculis ligula ut ipsum mattis viverra. Nulla a libero metus.</li>
+							<li>Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio.</li>
+							<li>Mauris molestie augue sed nunc adipiscing et pharetra ligula suscipit.</li>
+							<li>In euismod lectus ac sapien fringilla ut eleifend lacus venenatis.</li>
+						</ul>
+						<br>
+						<table class="two-column table-style-1" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<th>Header 1</th>
+								<th>Header 2</th>
+							</tr>
+							<tr>
+								<td>row 1, cell 1</td>
+								<td>row 1, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 2, cell 1</td>
+								<td>row 2, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 3, cell 1</td>
+								<td>row 3, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 4, cell 1</td>
+								<td>row 4, cell 2</td>
+							</tr>
+						</table>
+						<table class="two-column table-style-2" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<th>Header 1</th>
+								<th>Header 2</th>
+							</tr>
+							<tr>
+								<td>row 1, cell 1</td>
+								<td>row 1, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 2, cell 1</td>
+								<td>row 2, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 3, cell 1</td>
+								<td>row 3, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 4, cell 1</td>
+								<td>row 4, cell 2</td>
+							</tr>
+						</table>
+						<table class="two-column table-style-3" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<th>Header 1</th>
+								<th>Header 2</th>
+							</tr>
+							<tr>
+								<td>row 1, cell 1</td>
+								<td>row 1, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 2, cell 1</td>
+								<td>row 2, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 3, cell 1</td>
+								<td>row 3, cell 2</td>
+							</tr>
+							<tr>
+								<td>row 4, cell 1</td>
+								<td>row 4, cell 2</td>
+							</tr>
+						</table>
+					</div> <!-- end content -->
+				</div> <!-- end content -->
+
+				<div id="right-sidebar" class="content-column one-quarter-page last-column">
+
+					<div id="vision-2020-logo" class="sidebar block">
+						<div class="banner"></div>
+					</div>
+
+					<div id="leader-blog" class="block">
+						<h2>Leader Blog</h2>
+						<div class="banner"></div>
+						<div class="post">
+							<h3><a href="">Upcoming Title</a></h3>
+							<h4>Aug 24 2014</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="read-more"><a href="">Read More</a></div>
+						</div>
+					</div>
+
+					<div id="scorecard" class="block">
+						<h2>Scorecard</h2>
+						<div class="post">
+							<h3><a href="">Upcoming Title</a></h3>
+							<h4>Aug 24 2014</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="read-more"><a href="">Read More</a></div>
+						</div>
+					</div>
+
+					<div id="block-5" class="block">
+						<div id="did-you-know">
+							<h3>Did you know?</h3>
+							<p>The 2020 Vision logo symbolizes the global reach of the company.</p>
+						</div>
+					</div>
+
+				</div> <!-- end right-sidebar -->
+
+			</div> <!-- end content-container -->
+		</div> <!-- end content-wrapper -->
+
+		<div id="footer-wrapper">
+			<div id="footer-container">
+				<div id="footer-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="secondary.html">Our Responsibility</a></li>
+						<li><a href="secondary.html">News & Events</a></li>
+						<li><a href="secondary.html">Departments</a></li>
+						<li><a href="secondary.html">Contact Us</a></li>
+						<li><a href="secondary.html">2020 Vision</a></li>
+						<li><a href="secondary.html">Vermilion & Me</a></li>
+						<li><a href="secondary.html">Our Company</a></li>
+						<li><a href="secondary.html">Tools & Support</a></li>
+						<li><a href="secondary.html">Support</a></li>
+					</ul>
+				</div> <!-- end footer-menu-container -->
+				<div id="suggestion-box-container" class="footer-column last-column one-quarter-page">
+					<a id="suggestion-box" href="mailto:suggestions@vermilionenergy.com">Suggestion Box</a>
+				</div> <!-- end suggestion-box-container -->
+			</div> <!-- footer-container -->
+		</div> <!-- footer-wrapper -->
+
+	</div> <!-- end page-wrapper -->
+	<div id="disclaimer">Copyright &copy; 2013, <a target="_blank" href="http://www.vermilionenergy.com/">Vermilion Energy</a></div>
+</body>
+</html>

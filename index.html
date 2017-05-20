@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Vermilion Energy</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+		<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+
+	<!-- Fancybox -->
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="scripts/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="scripts/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+		<link rel="stylesheet" href="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- FlexSlider -->
+		<link rel="stylesheet" href="scripts/flexslider/flexslider-vermilion.css" type="text/css">
+		<script src="scripts/flexslider/jquery.flexslider.js"></script>
+
+	<!-- Vermilion customizations -->
+		<link rel="stylesheet" href="styles/style.css" media="screen" type="text/css">
+		<script type="text/JavaScript" src="scripts/vermilion.js"></script>
+
+</head>
+<body class="home-page">
+	<div id="page-wrapper">
+
+		<div id="header-wrapper">
+			<div id="header-container">
+				<div id="header-logo"><a href="/"></a></div>
+				<div id="header-title">
+					<h2>Intranet Title</h2>
+					<h3>Title to be determined</h3>
+				</div>
+				<div id="main-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="main-menu"><li><a href="index.html" class="active">Home</a></li><li><a href="secondary-with-2020-vision.html">2020 Vision</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li></ul></li><li><a href="secondary.html">News & Events</a></li><li><a href="secondary.html">Our Company</a></li><li><a href="secondary.html">Our Responsibility</a></li><li><a href="secondary.html">Vermilion & Me</a></li><li><a href="secondary.html">Departments</a></li><li><a href="secondary.html">Tools & Support</a><ul><li><a href="secondary.html">Dropdown Option 1</a></li><li><a href="secondary.html">Dropdown Option 2</a></li><li><a href="secondary.html">Dropdown Option 3</a></li><li><a href="secondary.html">Dropdown Option 4</a></li></ul></li></ul>
+				</div> <!-- end main-menu-container -->
+				<div id="search-form-container">
+				<form id="search-form" name="searchform" method="post" action="">
+					<label for="search-directory">Repertoire</label><div class="radio"><input id="search-directory" type="radio" name="searchscope" value="directory" checked="checked"></div>
+					<label for="search-intranet">Intranet</label><div class="radio"><input id="search-intranet" type="radio" name="searchscope" value="intranet"></div>
+					<label for="search-news">Nouvelles</label><div class="radio"><input id="search-news" type="radio" name="searchscope" value="news"></div>
+					<label for="search-google">Google</label><div class="radio"><input id="search-google" type="radio" name="searchscope" value="google"></div><br />
+					<input type="text" name="searchkey" id="search-key" maxlength="50" value="">
+					<a id="search-submit" href="javascript: submitSearch();">Search</a>
+				</form>
+				</div>
+				<div id="user-menu-container">
+					<ul id="user-menu">
+						<lh>Welcome:</lh>
+						<li id="profile-item"><a href="">User Name</a></li>
+						<li id="team-item"><a href="">Team Sites</a></li>
+						<li id="language-item"><a href="">English</a></li>
+					</ul>
+				</div> <!-- end user-menu-container -->
+			</div> <!-- end header-container -->
+		</div> <!-- end header-wrapper -->
+
+		<div id="slider-wrapper">
+			<div id="slider-container">
+				<div id="slider" class="flexslider">
+					<ul class="slides">
+						<li data-thumb="images/slides/slide_test_1.jpg">
+							<img src="images/slides/slide_test_1.jpg" />
+							<div class="flex-caption">
+								<h2>Test Slide #1</h2>
+								<p>This is the first test caption. Ad nec amet praesent, id vel vocibus abhorreant. Mei an habemus persecuti. Sea id causae posidonium, eu pericula conceptam his, lorem altera scriptorem eos ea. Omnes neglegentur et vel, inani munere iriure quo no.</p>
+								<span><a href="">Read More</a></span>
+							</div>
+						</li>
+						<li data-thumb="images/slides/slide_test_2.jpg">
+							<img src="images/slides/slide_test_2.jpg" />
+							<div class="flex-caption">
+								<h2>Test Slide #2</h2>
+								<p>This is the second test caption. Ad nec amet praesent, id vel vocibus abhorreant. Sea id causae posidonium, eu pericula conceptam his, lorem altera scriptorem eos ea. Omnes neglegentur et vel, inani munere iriure quo no.</p>
+								<span><a href="">Read More</a></span>
+							</div>
+						</li>
+						<li data-thumb="images/slides/slide_test_3.jpg">
+							<img src="images/slides/slide_test_3.jpg" />
+							<div class="flex-caption">
+								<h2>Test Slide #3</h2>
+								<p>This is the third test caption. Mei an habemus persecuti. Sea id causae posidonium, eu pericula conceptam his, lorem altera scriptorem eos ea. Omnes neglegentur et vel, inani munere iriure quo no.</p>
+								<span><a href="">Read More</a></span>
+							</div>
+						</li>
+						<li data-thumb="images/slides/slide_test_4.jpg">
+							<img src="images/slides/slide_test_4.jpg" />
+							<div class="flex-caption">
+								<h2>Test Slide #4 - this is a really long banner title to see what will happen if it wraps</h2>
+								<p>This is the fourth test caption. Ad nec amet praesent, id vel vocibus abhorreant. Mei an habemus persecuti.</p>
+								<span><a href="">Read More</a></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="manual-slider-caption">
+					<div id="slider-caption"></div>
+					<div class="manual-slider-control slider-prev"></div>
+					<div class="manual-slider-control slider-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="quick-menu-wrapper">
+			<div id="quick-menu-container" class="flexslider">
+				<ul id="quick-menu" class="slides">
+					<li class="quick-menu-hse"><a href="secondary.html"></a></li>
+					<li class="quick-menu-community"><a href="secondary.html"></a></li>
+					<li class="quick-menu-workday"><a href="secondary.html"></a></li>
+					<li class="quick-menu-video"><a href="secondary.html"></a></li>
+					<li class="quick-menu-solium"><a href="secondary.html"></a></li>
+					<li class="quick-menu-website"><a href="secondary.html"></a></li>
+					<li class="quick-menu-offices"><a href="secondary.html"></a></li>
+					<li class="quick-menu-jobs"><a href="secondary.html"></a></li>
+					<li class="quick-menu-classifieds"><a href="secondary.html"></a></li>
+					<li class="quick-menu-applications"><a href="secondary.html"></a></li>
+					<li class="quick-menu-website"><a href="secondary.html"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content-wrapper">
+			<div id="content-container">
+
+				<div id="left-sidebar" class="content-column one-quarter-page first-column">
+
+					<div class="block">
+						<h2>World Time</h2>
+						<table>
+							<tr>
+								<td>Australia</td>
+								<td>00:00 AM</td>
+							</tr>
+							<tr>
+								<td>Canada</td>
+								<td>00:00 AM</td>
+							</tr>
+							<tr>
+								<td>France</td>
+								<td>00:00 AM</td>
+							</tr>
+							<tr>
+								<td>Netherlands</td>
+								<td>00:00 AM</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="block">
+						<h2>Commodities</h2>
+						<table>
+							<tr>
+								<td>WTI Crude Oil</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>Brent Crude Oil</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>AECO Natural Gas</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>Henry Hub Natural Gas</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>Netherlands Natural Gas</td>
+								<td>$0.00</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="block">
+						<h2>Stock - VET</h2>
+						<table>
+							<tr>
+								<td>TSX</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>NYSE</td>
+								<td>$0.00</td>
+							</tr>
+						</table>
+						<p class="subtext">Quote delayed at least 15 minutes.</p>
+					</div>
+
+					<div id="weather-block" class="block">
+						<p>Weather goes here.</p>
+					</div>
+
+					<div id="block-hse" class="block">
+						<h2>HSE</h2>
+						<ul class="hse-menu">
+							<li class="hse-health"><a href=""></a></li>
+							<li class="hse-safety"><a href=""></a></li>
+							<li class="hse-environment"><a href=""></a></li>
+						</ul>
+						<img class="banner" src="images/sprite_48.jpg" />
+
+						<div class="post">
+							<h3><a href="">Upcoming Title</a></h3>
+							<h4>Aug 24 2014</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="read-more"><a href="">Read More</a></div>
+						</div>
+					</div>
+
+				</div> <!-- end left-sidebar -->
+
+
+				<div class="content-column one-quarter-page">
+
+					<div id="news-block" class="block">
+						<h2>News</h2>
+						<div class="tabs">
+
+							<div class="tab">
+								<h2>What's Hot</h2>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+							<div class="tab">
+								<h2>Local Feed</h2>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+						</div>
+					</div> <!-- end block -->
+
+					<div id="flex-block" class="block">
+						<h2>Flex Section</h2>
+						<img class="banner" src="images/sprite_51.png" />
+						<h3>Our NYSE listing feels unBULLievable!</h3>
+						<p>Congratulations Vermilion staff on a job well done.</p>
+					</div> <!-- end content -->
+
+				</div> <!-- end content column -->
+
+
+				<div class="content-column one-quarter-page">
+
+					<div id="events-block" class="block">
+						<h2>Dates & Events</h2>
+						<div class="tabs">
+
+							<div class="tab">
+								<h2>Corporate</h2>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 24 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+							<div class="tab">
+								<h2>Local</h2>
+								<div class="post">
+									<h3><a href="">Upcoming Title</a></h3>
+									<h4>Aug 30 2014</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="read-more"><a href="">Read More</a></div>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+						</div>
+					</div> <!-- end block -->
+
+				</div> <!-- end content column -->
+
+				<div id="right-sidebar" class="content-column one-quarter-page last-column">
+
+					<div class="block">
+						<h2>Event Photos</h2>
+						<img class="banner gallery-view" src="images/sprite_34.jpg" />
+						<p><a class="view-more gallery-view" href="javascript:;">View More</a></p>
+    				<script type="text/javascript">
+							(function($){
+								$(document).ready(function() {
+									$(".gallery-view").click(function() {
+										$.fancybox([
+											'http://farm5.static.flickr.com/4044/4286199901_33844563eb.jpg',
+											'http://farm3.static.flickr.com/2687/4220681515_cc4f42d6b9.jpg',
+											{
+												'href'	: 'http://farm5.static.flickr.com/4005/4213562882_851e92f326.jpg',
+												'title'	: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+											}
+										], {
+											'padding'			: 0,
+											'transitionIn'		: 'none',
+											'transitionOut'		: 'none',
+											'type'              : 'image',
+											'changeFade'        : 0
+										});
+									});
+								});
+							})(jQuery);
+						</script>
+					</div>
+
+					<div id="people-block" class="block">
+						<h2>Our People</h2>
+						<div class="tabs">
+
+							<div class="tab">
+								<h2>On the Move</h2>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+							<div class="tab">
+								<h2>New Hires</h2>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<div class="person">
+									<h3><a href="">Employee Name</a></h3>
+									<h4>Employee Description</h4>
+									<h4>Aug 24 2014</h4>
+								</div>
+								<a class="view-more" href="">View More</a>
+							</div>
+
+						</div>
+					</div> <!-- end block -->
+
+				</div> <!-- end right-sidebar -->
+
+				<div id="vermilion-data-header" class="content-column full-page first-column last-column">
+					<h2>Vermilion Data</h2>
+				</div> <!-- end divider -->
+				<div id="vermilion-data">
+
+					<div class="content-column one-quarter-page first-column">
+	
+						<div id="lti-free-days-block" class="block content">
+							<h2>152 LTI-Free Days</h2>
+	
+							<div class="post">
+								<h3><a href="">Upcoming Title</a></h3>
+								<h4>Aug 24 2014</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<div class="read-more"><a href="">Read More</a></div>
+							</div>
+	
+							<div class="post">
+								<h3><a href="">Upcoming Title</a></h3>
+								<h4>Aug 24 2014</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<div class="read-more"><a href="">Read More</a></div>
+							</div>
+						</div>
+	
+					</div> <!-- end left-sidebar -->
+	
+					<div class="content-column one-quarter-page shaded-column">
+	
+						<div class="block content">
+							<div class="post">
+								<h2><a href="">Year to Date Shareholder Return</a></h2>
+								<h4>Aug 24 2014</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<div class="read-more"><a href="">Read More</a></div>
+							</div>
+						</div>
+	
+						<div class="block content">
+							<div class="post">
+								<h2><a href="">Quartile Rankings</a></h2>
+								<h4>Aug 24 2014</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<div class="read-more"><a href="">Read More</a></div>
+							</div>
+						</div>
+	
+					</div> <!-- end content column -->
+	
+					<div class="content-column one-quarter-page vermilion-data">
+	
+						<div class="block content">
+							<div class="post">
+								<h2><a href="">Lorem ipsum dolor sit amet</a></h2>
+								<h4>Aug 24 2014</h4>
+								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+								<div class="read-more"><a href="">Read More</a></div>
+							</div>
+						</div>
+	
+					</div> <!-- end content column -->
+	
+					<div class="content-column one-quarter-page last-column">
+	
+						<div class="block">
+							<img class="banner" src="images/sprite_59.png" />
+						</div>
+	
+						<div class="block">
+							<a href="secondary-with-2020-vision.html"><img class="banner" src="images/sprite_62.png" /></a>
+						</div>
+	
+						<div id="staff-count-block" class="block">
+							<h2>Staff Count by Region</h2>
+							<ul>
+								<li id="staff-count-canada">000</li>
+								<li id="staff-count-france">000</li>
+								<li id="staff-count-netherlands">000</li>
+								<li id="staff-count-australia">000</li>
+							</ul>
+						</div>
+	
+					</div> <!-- end right-sidebar -->
+
+				</div> <!-- end vermilion data -->
+				
+			</div> <!-- end content-container -->
+		</div> <!-- end content-wrapper -->
+
+		<div id="footer-wrapper">
+			<div id="footer-container">
+				<div id="footer-menu-container" class="footer-column first-column three-quarter-page">
+					<ul id="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="secondary.html">Our Responsibility</a></li>
+						<li><a href="secondary.html">News & Events</a></li>
+						<li><a href="secondary.html">Departments</a></li>
+						<li><a href="secondary.html">Contact Us</a></li>
+						<li><a href="secondary.html">2020 Vision</a></li>
+						<li><a href="secondary.html">Vermilion & Me</a></li>
+						<li><a href="secondary.html">Our Company</a></li>
+						<li><a href="secondary.html">Tools & Support</a></li>
+						<li><a href="secondary.html">Support</a></li>
+					</ul>
+				</div> <!-- end footer-menu-container -->
+				<div id="suggestion-box-container" class="footer-column last-column one-quarter-page">
+					<a id="suggestion-box" href="mailto:suggestions@vermilionenergy.com">Suggestion Box</a>
+				</div> <!-- end suggestion-box-container -->
+			</div> <!-- footer-container -->
+		</div> <!-- footer-wrapper -->
+
+	</div> <!-- end page-wrapper -->
+	<div id="disclaimer">Copyright &copy; 2013, <a target="_blank" href="http://www.vermilionenergy.com/">Vermilion Energy</a></div>
+</body>
+</html>
